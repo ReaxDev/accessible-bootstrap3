@@ -1,0 +1,25 @@
+{
+  "name": "accessible-bootstrap3",
+  "version": "0.1.0",
+  "description": "A js script for making your bootstrap3 web app more accessible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReaxDev/accessible-bootstrap3.git"
+  },
+  "author": "Brandon Howard <brandon@reax.io> (brandonrhoward.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ReaxDev/accessible-bootstrap3/issues"
+  },
+  "homepage": "https://github.com/ReaxDev/accessible-bootstrap3#readme",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "dependencies": {
+    "jquery": ">=1.9.1 < 2.0.0"
+  }
+}
