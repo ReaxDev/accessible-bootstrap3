@@ -1,6 +1,6 @@
 {
   "name": "accessible-bootstrap3",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A js script for making your bootstrap3 web app more accessible.",
   "main": "index.js",
   "scripts": {
