@@ -133,7 +133,12 @@ $(document).ready(function() {
         event.target.click();
         return false
       }
-      if ($(event.target).is("select")) {event.preventDefault(); mouseDown(event.target); return false}
+      if ($(event.target).is("select")) {
+        event.preventDefault();
+        mouseDown(event.target);
+        return false
+      }
+      if ($(event.target).is(".redactor-editor")) {return true}
 
       tabIndexForward(event);
       event.preventDefault();
